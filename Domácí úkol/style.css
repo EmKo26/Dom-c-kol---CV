@@ -1,0 +1,62 @@
+#name {
+  text-decoration: underline;
+  color: brown;
+  font-size: 45px;
+  text-align: left;
+}
+:root {
+  --primary-color: #000000;
+  --th-background-color: #facacaec;
+  --secundary-color: #b40606;
+}
+h2 {
+  font-size: 29px;
+}
+h3 {
+  font-size: 20px;
+}
+.photo {
+  width: 120px;
+  height: auto;
+  box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 4px;
+  background-color: var(--th-background-color);
+}
+a:hover {
+  color: var(--secundary-color);
+}
+.popis {
+  display: flex;
+  align-items: auto;
+  gap: 15px;
+}
+h2,
+h3 {
+  color: rgb(163, 0, 0);
+}
+.jazyk {
+  text-transform: uppercase;
+}
+.jazyky {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+}
+.lng {
+  font-style: italic;
+  color: var(--primary-color);
+}
+.tabulka {
+  border: 1px solid var(--primary-color);
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid var(--primary-color);
+  border-collapse: collapse;
+}
+th {
+  background-color: var(--th-background-color);
+}
